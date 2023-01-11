@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicon-i.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://bootswatch.com/5/quartz/bootstrap.min.css">
+    <title>Firebase CRUD</title>
+</head>
+
+<body>
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="card">
+                    <div class="card-body">
+                        <h1 class="h4 text-center">Añadir Tarea</h1>
+                        <form id="task-form">
+                            <label for="title" style="font-size: x-large;">Título</label>
+                            <input class="form-control mb-3" type="text" placeholder="Título de Tarea" id="task-title">
+
+                            <label for="description" style="font-size: x-large;">Descripción</label>
+                            <textarea class="form-control mb-3" id="task-description" rows="3"
+                                placeholder="Descripción de Tarea"></textarea>
+                            <button class="btn btn-primary" id="btn-task-save">Guardar</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6" id="tasks-container">
+            </div>
+        </div>
+
+
+    </div>
+
+
+
+    <script type="module" src="./index.js"></script>
+
+    <footer>
+        <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div style="font-size: large;">Redes sociales</div>
+            <a href="https://www.instagram.com/"><img src="img/instagram.png"
+                    style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;
+            <a href="https://github.com/Brandon12536"><img src="img/github.png"
+                    style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;
+            <a href="https://brandonperez.milaulas.com/"><img src="img/moodle.png"
+                    style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;
+            <a href="https://www.tiktok.com/es/"><img src="img/tik-tok.png"
+                    style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;
+            <a href="https://es-la.facebook.com/"><img src="img/facebook.png"
+                    style="width: 25px; height: 25px;"></a>&nbsp;&nbsp;
+            <div style="margin-top:15px; font-size:large;">© 2023 Copyright, Autor: Brandon Pérez</div>
+        </div>
+    </footer>
+</body>
+
+</html>
